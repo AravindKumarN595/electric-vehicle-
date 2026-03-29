@@ -4,7 +4,7 @@
 This project implements a real-time Electric Vehicle (EV) dashboard using MATLAB with Bluetooth-based communication.
 
 ## Demo
-![EV Dashboard](dashboard.png)
+![EV Dashboard](Screenshot 2026-03-29 182901.png)
 
 ## Features
 - Semi-circular speedometer with dynamic needle
