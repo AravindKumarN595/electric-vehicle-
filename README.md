@@ -1,19 +1,32 @@
 # EV Dashboard HMI (MATLAB)
 
 ## Overview
-This project implements a real-time EV dashboard using MATLAB.
+This project implements a real-time Electric Vehicle (EV) dashboard using MATLAB with Bluetooth-based communication.
+
+## Demo
+![EV Dashboard](dashboard.png)
 
 ## Features
-- Semi-circular speedometer
-- Battery monitoring system
+- Semi-circular speedometer with dynamic needle
+- Battery monitoring system with color indication
 - Power and temperature display
 - Bluetooth communication (HC-05 / ESP32)
-- Drive mode selection
+- Drive mode selection (ECO / NORMAL / SPORT)
+
+## Technologies Used
+- MATLAB (UI + Visualization)
+- Serial Communication (Bluetooth)
 
 ## How to Run
 1. Open MATLAB
-2. Run main.m
-3. Connect Bluetooth device
+2. Run `main.m`
+3. Ensure Bluetooth device is connected
+4. Update COM port if required
+
+## Future Scope
+- Simulink integration
+- AI-based fault detection
+- Mobile app interface
 
 ## Author
 Aravind Kumar N
